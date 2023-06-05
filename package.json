@@ -1,44 +1,16 @@
 {
-
   "name": "backendapiindigo",
   "version": "1.0.0",
+  "description": "Description of your application",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "FaisalRiaz",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
-    "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2",
-    "fetch": "^1.1.0",
-    "mongoose": "^7.2.2",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "superagent": "^8.0.9"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.22.4",
-    "babel-jest": "^29.5.0",
-    "jest": "^29.5.0",
-    "nodemon": "^2.0.22",
-    "supertest": "^6.3.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
   }
 }
-
-  
